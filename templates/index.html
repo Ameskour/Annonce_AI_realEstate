@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styless.css') }}">
+  
+</head>
+<body>
+
+<h1>Annonce AI</h1>
+    <div id="chatbox">
+        <div id="botStarterMessage" class="messageContainer">
+            <p class="botMessage"> Décrivez votre bien immobilier:</p>
+        </div>
+    </div>
+    <form id="userInputForm" method="POST">
+        <input id="userInput" type="text" name="userInput">
+        <input id="button" type="submit" value="Send">
+    </form>
+
+    <script src="{{ url_for('static', filename='js/scriptss.js') }}"></script>
+    
+</body>
+</html>

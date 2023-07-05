@@ -1,0 +1,110 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#chatbox {
+    width: 900px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+#userInputForm {
+    display: flex;
+    justify-content: center;
+}
+
+#userInput {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#button {
+    width: 20%;
+    padding: 5px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007BFF;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+
+.messageContainer {
+    margin-bottom: 10px;
+}
+
+.botMessage {
+    color: #007BFF;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.botMessage2 {
+    color: grey;
+    font-weight: bold;
+    background-color: #f6f6f6;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.userMessage {
+    color: #28a745;
+    font-weight: bold;
+    background-color: #defade;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.typing-indicator {
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.typing-indicator span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-right: 3px;
+    animation: blink 1s infinite;
+}
+
+.typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+}
