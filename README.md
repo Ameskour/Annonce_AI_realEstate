@@ -1,18 +1,19 @@
-# Annonce AI Chatbot
+# Annonce AI Real Estate Chatbot
 
-This is a chatbot powered by OpenAI to generate real estate advertisements. It interacts with the user through a web interface and uses natural language processing to create compelling property descriptions based on user inputs.
+The Annonce AI Real Estate Chatbot is a powerful tool that leverages OpenAI's language model to generate compelling property advertisements based on user inputs. It provides an interactive conversation flow to guide users through the process of creating engaging real estate advertisements.
 
 ## Features
 
-- Create engaging real estate advertisements
-- Dynamically guide the user through a conversation flow
-- Incorporate different characteristics of the property in the generated ad
-- Customize tone and length of the advertisement
+- Generate persuasive property descriptions: The chatbot utilizes the OpenAI language model to generate compelling property advertisements by highlighting the unique features and selling points of a property.
+
+- Dynamic conversation flow: The chatbot dynamically guides users through a conversation flow, asking questions and capturing user responses to construct a comprehensive property description.
+
+- Customization options: Users can specify the tone and length of the advertisement to align with their specific requirements and target audience.
 
 ## Installation
 
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/annonce-ai-chatbot.git
+   git clone https://github.com/Ameskour/Annonce_AI_realEstate.git
 
